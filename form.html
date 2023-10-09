@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+
+<body>
+    <a href="index.html">Перейти на главную</a>
+    <form action="" method="get">
+        <p>
+            Логин <input type="text" name="login" placeholder="email@mail.ru" required>
+        </p>
+        <p>
+            Пароль <input type="password" name="pass" disabled>
+        </p>
+        <h3>Ваши интерсы</h3>
+        <label> <input type="checkbox" name="interess" value="music"> Музыка</label>
+        <input type="checkbox" name="interess" value="sport"> Спорт
+        <input type="checkbox" name="interess" value="programming" checked> Программирование
+        <hr>
+        <h3>Род деятельности</h3>
+        <input type="radio" name="occupation" value="work">Работаю
+        <input type="radio" name="occupation" value="no-work"> Не Работаю
+        <input type="radio" name="occupation" value="study"> Учусь
+        <h3>Ваш город</h3>
+        <select name="city">
+            <option value="Tyumen">Тюмень</option>
+            <option value="Moscow">Москва</option>
+            <option value="Omsk">Омск</option>
+        </select>
+        <h3>Комментарий</h3>
+        <p>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+
+        </p>
+        <p>
+            <input type="submit" value="Отправить">
+            <button type="reset">Очистить форму</button>
+
+
+
+        </p>
+    </form>
+    <form action="">
+        <p>
+            Имя <input type="login" name="user name">
+        </p>
+        <p>
+            Телефон <input type="text" name="number">
+        </p>
+        <p>
+            Почта <input type="text" name="login" placeholder="email@mail.ru" required>
+        </p>
+        <p>
+            <input type="submit" value="Оставить данные">
+        </p>
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>
