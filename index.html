@@ -4,27 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Селекторы CSS</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <a href="demo.html">Перейти на демо</a>
-    <a href="form.html">Перейти к форме</a> <br>
-    <a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%B5%D0%BD%D1%8C" target="_blank">
-        <img src="image/autumn.jpg" alt="Осень" width="500">
-    </a>
-
-
-
-
-
-
-
-
-
-
-
-
+    <form action="" class="form">
+        <p>
+            Введите имя <input type="text" name="username">
+        </p>
+        <div>
+            <h3>Укажите интересы</h3>
+            <ul>
+                <li>
+                    <label> <input type="checkbox" name="interess"><span>Спорт</span></label>
+                </li>
+                <li>
+                    <label> <input type="checkbox" name="interess"><span>Программирование</span></label>
+                </li>
+                <li>
+                    <label> <input type="checkbox" name="interess"><span>Математика</span></label>
+                </li>
+            </ul>
+            <span>Просто спан</span>
+        </div>
+        <input type="submit">
+    </form>
 </body>
 
 </html>
